@@ -35,7 +35,7 @@ export default function RootLayout({
       lang="es"
       className={`${amaticSC.variable} ${geistMono.variable} ${yanone.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col items-center gap-16 sd:gap-8  bg-[#f5efe6aa] px-8 text-red-600">
+      <body className="min-h-full flex flex-col items-center gap-12 sd:gap-8  bg-[#f5efe6aa] px-8 text-red-600">
         <Header />
         {children}
       </body>
