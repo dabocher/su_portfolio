@@ -101,8 +101,7 @@ export const carteles = [
   },
   {
     id: "6",
-    title:
-      "Exposición de ilustraciones del libro `Lola Flores ¿Cómo me las maravillaría yo?`",
+    title: `Exposición de ilustraciones del libro "Lola Flores ¿Cómo me las maravillaría yo?"`,
     description: "",
     image: "/images/carteles/cartel6.webp",
     year: 2022,
