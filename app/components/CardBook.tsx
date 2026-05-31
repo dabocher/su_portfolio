@@ -25,9 +25,9 @@ export const CardBook = ({
   }));
 
   return (
-    <div className="bg-[#f5efe6] text-zinc-800 p-4 rounded-lg sm:text-xl md:text-2xl flex flex-col gap-4  ">
+    <div className="bg-[#f5efe6] text-zinc-800 p-4 rounded-lg flex flex-col gap-4  ">
       <div className="flex gap-4">
-        <div className=" text-sm font-yanone">
+        <div className="  font-yanone">
           <div className="shrink-0 w-24 sm:w-32 relative ">
             <Image
               src={`/images/libros/libro${id}.webp`}
@@ -40,16 +40,16 @@ export const CardBook = ({
         </div>
         <div className="flex flex-col justify-between">
           <h2 className="text-xl sm:text-3xl font-semibold">{title}</h2>
-          <div>
-            <p className="font-yanone text-sm sm:text-lg ">Autora: {author}</p>
-            <div className="font-yanone text-sm sm:text-lg  flex justify-between">
+          <div className="font-yanone text-sm sm:text-lg">
+            <p>Autora: {author}</p>
+            <div className="flex justify-between">
               <p>Ilustradora: {illustrator}</p>
               <p>({year})</p>
             </div>
           </div>
         </div>
       </div>
-      <p className=" text-sm sm:text-lg font-yanone">{description}</p>
+      <p className=" text-md sm:text-xl font-yanone">{description}</p>
       <div className="grid grid-cols-2 gap-2">
         {bookImageSrc.map((src, index) => (
           <div className="relative w-full aspect-[4/3]" key={index}>
