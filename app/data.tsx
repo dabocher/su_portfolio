@@ -106,4 +106,18 @@ export const carteles = [
     image: "/images/carteles/cartel6.webp",
     year: 2022,
   },
+  {
+    id: "7",
+    title: "Cartel para el Festival Flamenc de Girona",
+    description: "#FlamenGiPrimavera",
+    image: "/images/carteles/cartel7.webp",
+    year: 2022,
+  },
+  {
+    id: "8",
+    title: "Cartel LOLA Flamenco direct from Jerez",
+    description: "",
+    image: "/images/carteles/cartel8.webp",
+    year: 2022,
+  },
 ];
