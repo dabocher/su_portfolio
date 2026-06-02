@@ -53,7 +53,7 @@ export const libros = [
     id: "6",
     title: "Flamenco y rumba desde Cataluña",
     description:
-      'Es un viaje de ida y vuelta, un recorrido por el mundo Flamenco/ Rumbero que desde Cataluña ha llegado a enamorar al mundo entero. Un álbum ilustrado para descubrir, conocer y reconocer algunos de los más  importantes. "Cantaores", "bailaores" y "guitarristas" que a dado Cataluña . Doce personajes, doce notas y doce colores para que aprendas de una manera divertida a reconocer a nuestros Artistas! ¡¡¡¡un aplauso para ellos!!!! ¡ole!',
+      'Es un viaje de ida y vuelta, un recorrido por el mundo Flamenco/ Rumbero que desde Cataluña ha llegado a enamorar al mundo entero. Un álbum ilustrado para descubrir, conocer y reconocer algunos de los más importantes. "Cantaores", "bailaores" y "guitarristas" que ha dado Cataluña. Doce personajes, doce notas y doce colores para que aprendas de una manera divertida a reconocer a nuestros Artistas! ¡¡¡¡un aplauso para ellos!!!! ¡ole!',
     image: "/images/libros/libro6.webp",
     year: 2020,
     author: "Susana Subirana",
