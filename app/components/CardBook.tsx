@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ImageModal from "./ImageModal";
 
 interface CardBookProps {
   id: string;
@@ -21,7 +22,7 @@ export const CardBook = ({
   const bookImageSrc = Array.from({ length: 4 }, (_, i) => ({
     id: i + 1,
     src: `/images/libros/libro${id}/libro${id}${i + 1}.webp`,
-    alt: `Susana Subirana ${i + 1}`,
+    alt: `Imagen ${i + 1}`,
   }));
 
   return (
@@ -50,18 +51,7 @@ export const CardBook = ({
         </div>
       </div>
       <p className=" text-md sm:text-xl font-yanone">{description}</p>
-      <div className="grid grid-cols-2 gap-2">
-        {bookImageSrc.map((src, index) => (
-          <div className="relative w-full aspect-[4/3]" key={index}>
-            <Image
-              src={src.src}
-              alt="Ilustraciones del libro"
-              fill
-              className="rounded-lg object-cover"
-            />
-          </div>
-        ))}
-      </div>
+      <ImageModal images={bookImageSrc} />
     </div>
   );
 };
