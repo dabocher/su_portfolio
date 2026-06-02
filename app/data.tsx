@@ -120,4 +120,11 @@ export const carteles = [
     image: "/images/carteles/cartel8.webp",
     year: 2022,
   },
+  {
+    id: "9",
+    title: "Cartel para el Festival Kriatura de Dinamarca",
+    description: "Échale papa",
+    image: "/images/carteles/cartel9.webp",
+    year: 2026,
+  },
 ];
