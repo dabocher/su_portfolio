@@ -136,6 +136,13 @@ export const proyectos = [
     title: `"WA", Armonía y equilibrio entre fuerzas opuestas`,
     description:
       "Trabajo realizado para la clínica Mi Tres Torres de Barcelona. Serie de ilustraciones inspiradas en conceptos sanadores de la filosofía tradicional japonesa.",
-    year: 2020,
+    year: 2026,
+  },
+  {
+    id: "2",
+    title: "Flamencas Ilustradas",
+    description:
+      "Proyecto de ilustración fotográfica en colaboración con la fotógrafa Isa de la Calle. Exposición itinerante por diferentes ciudades españolas.",
+    year: 2022,
   },
 ];
