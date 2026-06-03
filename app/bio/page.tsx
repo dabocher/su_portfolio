@@ -7,15 +7,16 @@ const Bio = () => {
       </h1>
       <div className="max-w-2xl px-8 pb-4 text-center text-sm font-yanone text-gray-700">
         <p className="text-justify">
-          Susana Subirana es una artista especializada en ilustradora con sede
+          Susana Subirana es una artista especializada en ilustración con sede
           en Barcelona. Con más de 20 años de experiencia, ha trabajado en una
           amplia variedad de proyectos, desde libros infantiles hasta carteles
-          publicitarios. Su estilo se caracteriza por su carga humorística y
-          crítica, por su amor al blanco y negro, su uso vibrante del color y su
-          enfoque narrativo, creando imágenes que cuentan historias y evocan
-          emociones. A lo largo de su carrera, Susana ha colaborado con
-          editoriales, agencias de publicidad y marcas, ganando reconocimiento
-          por su creatividad y habilidad para comunicar visualmente.
+          publicitarios. Su estilo se caracteriza por su carga didáctica,
+          humorística y crítica, por su amor al blanco y negro, su uso vibrante
+          del color y su enfoque narrativo, creando imágenes que cuentan
+          historias y evocan emociones. A lo largo de su carrera, Susana ha
+          colaborado con editoriales, agencias de publicidad y marcas, ganando
+          reconocimiento por su creatividad y habilidad para comunicar
+          visualmente.
         </p>
       </div>
       <div className="max-w-2xl px-16 ">
