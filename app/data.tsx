@@ -64,37 +64,38 @@ export const libros = [
 export const carteles = [
   {
     id: "1",
-    title: "The Masnounien",
-    description: "",
+    title: "Belleza en extinción",
+    description:
+      "Portada núm.45 del proyecto Masnounien homenaje a la revista The New Yorker",
     image: "/images/carteles/cartel1.webp",
     year: 2025,
   },
   {
     id: "2",
-    title: "The Masnounien",
-    description: "Mas Now",
+    title: "Mas Now",
+    description:
+      "Portada núm.13 del proyecto Masnounien homenaje a la revista The New Yorker",
     image: "/images/carteles/cartel2.webp",
     year: 2025,
   },
   {
     id: "3",
-    title: "Flamencas Ilustradas",
+    title: `Exposición de "Flamencas Ilustradas"`,
     description:
-      "Exposición de fotografías ilustradas de Isa de la Calle y Susana Subirana en Jerez",
+      "Exposición en Jerez de la Frontera de fotografías ilustradas. Imagen fotográfica a cargo de Isa de la Calle y ilustraciones y grafismo de Susana Subirana",
     image: "/images/carteles/cartel3.webp",
     year: 2022,
   },
   {
     id: "4",
-    title:
-      "Cartel para el Festival Internacional de Flamenco infantil y juvenil",
+    title: `Cartel para el Festival Internacional "Kriatura" de Flamenco infantil y juvenil (Dinamarca-Jerez)`,
     description: "",
     image: "/images/carteles/cartel4.webp",
     year: 2024,
   },
   {
     id: "5",
-    title: "Cartel para el Festival Internacional de Flamenco para niños",
+    title: `Cartel para el Festival Internacional "Kriatura" de Flamenco para niños (Dinamarca-Jerez)`,
     description: "",
     image: "/images/carteles/cartel5.webp",
     year: 2021,
@@ -108,21 +109,21 @@ export const carteles = [
   },
   {
     id: "7",
-    title: "Cartel para el Festival Flamenc de Girona",
-    description: "#FlamenGiPrimavera",
+    title: "Festival FlamencGi (Girona)",
+    description: "",
     image: "/images/carteles/cartel7.webp",
     year: 2022,
   },
   {
     id: "8",
-    title: "Cartel LOLA Flamenco direct from Jerez",
-    description: "",
+    title: `Espectáculo "LOLA, Flamenco direct from Jerez"`,
+    description: "Little Big Festival en Glastonbury (Reino Unido)",
     image: "/images/carteles/cartel8.webp",
     year: 2022,
   },
   {
     id: "9",
-    title: "Cartel para el Festival Kriatura de Dinamarca",
+    title: `Cartel para el Festival Internacional "Kriatura" de Flamenco para niños (Dinamarca-Jerez)`,
     description: "Échale papa",
     image: "/images/carteles/cartel9.webp",
     year: 2026,
