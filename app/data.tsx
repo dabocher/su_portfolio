@@ -133,8 +133,9 @@ export const carteles = [
 export const proyectos = [
   {
     id: "1",
-    title: "WA, Filosofía japonesa",
-    description: `El concepto Wa (和) es el pilar central de la filosofía y cultura japonesa, que se traduce fundamentalmente como "armonía", "paz" o "equilibrio". Representa la búsqueda constante de una convivencia pacífica, donde el bienestar colectivo, la cooperación y el respeto se anteponen a los intereses estrictamente individuales.`,
+    title: `"WA", Armonía y equilibrio entre fuerzas opuestas`,
+    description:
+      "Trabajo realizado para la clínica Mi Tres Torres de Barcelona. Serie de ilustraciones inspiradas en conceptos sanadores de la filosofía tradicional japonesa.",
     year: 2020,
   },
 ];
