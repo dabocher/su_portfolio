@@ -1,7 +1,9 @@
+import { ProjectCarousel } from "@/app/components/ProjectCarousel";
+
 const ProyectosPage = () => {
   return (
-    <main className="flex flex-col items-center justify-center  font-sans h-full">
-      Aquí van los proyectos
+    <main className="">
+      <ProjectCarousel />
     </main>
   );
 };

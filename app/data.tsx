@@ -128,3 +128,12 @@ export const carteles = [
     year: 2026,
   },
 ];
+
+export const proyectos = [
+  {
+    id: "1",
+    title: "WA, Filosofía japonesa",
+    description: `El concepto Wa (和) es el pilar central de la filosofía y cultura japonesa, que se traduce fundamentalmente como "armonía", "paz" o "equilibrio". Representa la búsqueda constante de una convivencia pacífica, donde el bienestar colectivo, la cooperación y el respeto se anteponen a los intereses estrictamente individuales.`,
+    year: 2020,
+  },
+];
