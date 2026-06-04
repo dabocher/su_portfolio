@@ -13,7 +13,7 @@ const HomePage = () => {
         Susana Subirana <span className="text-red-600">Portfolio</span>
       </h1>
       <div className="w-full  bg-[#f5efe6]  p-4 rounded-lg">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 ">
           {images.map((image) => (
             <CardHome key={image.id} src={image.src} alt={image.alt} />
           ))}
