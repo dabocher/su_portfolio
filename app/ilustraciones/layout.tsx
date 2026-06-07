@@ -6,11 +6,11 @@ const IlustracionesLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <section className="flex flex-col mx-4 gap-2 md:w-3/4">
-      <header className="flex flex-col items-center  justify-center bg-[#e6ded2] font-semibold text-zinc-800 rounded-sm font-sans h-full">
+    <section className="flex flex-col w-full gap-2">
+      <header className="flex flex-col items-center mx-4 justify-center bg-[#e6ded2] font-semibold text-zinc-800 rounded-sm font-sans h-full">
         <IllustrationsLinks />
       </header>
-      <div className="">{children}</div>
+      <div className="w-full px-4">{children}</div>
     </section>
   );
 };
