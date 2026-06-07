@@ -6,7 +6,7 @@ const IlustracionesLayout = ({
   children: React.ReactNode;
 }>) => {
   return (
-    <section className="flex flex-col gap-2 sm:w-3/4">
+    <section className="flex flex-col mx-4 gap-2 md:w-3/4">
       <header className="flex flex-col items-center  justify-center bg-[#e6ded2] font-semibold text-zinc-800 rounded-sm font-sans h-full">
         <IllustrationsLinks />
       </header>
