@@ -2,7 +2,7 @@ import Image from "next/image";
 const Bio = () => {
   return (
     <div className="relative min-h-screen flex flex-col">
-      <main className="bg-[#f5efe6] rounded-2xl flex flex-col gap-2 mx-6 sm:mx-8 p-4  text-sm sm:text-lg font-yanone text-zinc-800">
+      <main className="bg-[#f5efe6] rounded-2xl flex flex-col gap-2 mx-6 sm:mx-8 p-6 md:p-8 text-md sm:text-lg font-yanone text-zinc-800">
         <div>
           <Image
             src="/images/bio/sulogotexto.webp"
