@@ -151,4 +151,10 @@ export const proyectos = [
     description: "Postales para el restaurante Guzzo Club de Barcelona.",
     year: 2016,
   },
+  {
+    id: "4",
+    title: "Diari ARA",
+    description: `Ilustraciones para el diario "Ara" de Barcelona. Serie de ilustraciones para la sección de cultura del diario.`,
+    year: 2014,
+  },
 ];
