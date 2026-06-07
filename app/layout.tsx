@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono, Amatic_SC, Yanone_Kaffeesatz } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import { Footer } from "./components/Footer";
 
 const amaticSC = Amatic_SC({
   variable: "--font-amatic-sc",
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col items-center gap-12 sd:gap-8   bg-[#f5efe6aa] text-red-600">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
