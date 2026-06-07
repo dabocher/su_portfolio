@@ -4,8 +4,11 @@ import Link from "next/dist/client/link";
 
 const Header = () => {
   return (
-    <header className="w-full  flex items-center gap-2 sm:gap-4 justify-center">
-      <Link href="/bio" className="bg-[#e6ded2] rounded-lg p-1  ">
+    <header className="w-full relative  flex items-center gap-2 sm:gap-4 justify-center">
+      <Link
+        href="/bio"
+        className=" absolute top-2 left-2 bg-[#e6ded2] rounded-lg p-1  "
+      >
         <Image
           src="/images/home/susulogo.webp"
           alt="Logo Susana Subirana"
@@ -14,6 +17,7 @@ const Header = () => {
           className="rounded-lg object-cover "
         />
       </Link>
+
       <NavBar />
     </header>
   );
