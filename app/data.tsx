@@ -145,4 +145,10 @@ export const proyectos = [
       "Proyecto de ilustración fotográfica en colaboración con la fotógrafa Isa de la Calle. Exposición itinerante por diferentes ciudades españolas.",
     year: 2022,
   },
+  {
+    id: "3",
+    title: "Guzzo",
+    description: "Postales para el restaurante Guzzo Club de Barcelona.",
+    year: 2016,
+  },
 ];
