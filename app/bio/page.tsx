@@ -1,12 +1,17 @@
 import Image from "next/image";
 const Bio = () => {
   return (
-    <main className="flex flex-col items-center justify-center   h-full">
-      <h1 className="text-4xl font-semibold leading-10 tracking-tight pb-4 text-center">
-        Bio
-      </h1>
-      <div className="max-w-2xl px-8 pb-4 text-center text-sm font-yanone text-gray-700">
-        <p className="text-justify">
+    <div className="relative min-h-screen flex flex-col">
+      <main className="bg-[#f5efe6] rounded-2xl flex flex-col gap-2 mx-6 sm:mx-8 p-4  text-sm sm:text-lg font-yanone text-zinc-800">
+        <div>
+          <Image
+            src="/images/bio/sulogotexto.webp"
+            alt="Susana Subirana"
+            width={100}
+            height={100}
+          />
+        </div>
+        <p>
           Susana Subirana es una artista especializada en ilustración con sede
           en Barcelona. Con más de 20 años de experiencia, ha trabajado en una
           amplia variedad de proyectos, desde libros infantiles hasta carteles
@@ -18,17 +23,31 @@ const Bio = () => {
           reconocimiento por su creatividad y habilidad para comunicar
           visualmente.
         </p>
-      </div>
-      <div className="max-w-2xl px-16 ">
+        <p>
+          Estudió música, canto y baile. 5 años de “Arts i Oficis” en el
+          Institut Berguedà. Carrera d’Arts Plàstiques en la Facultat de Belles
+          Arts de Barcelona. Fotografía, dibujo, pintura y especialmente
+          ilustración. Trabajó durante 5 años ilustrando artículos de opinión en
+          el diario Ara. Creó la marca “Laslolasplanet”, cofundadora del local
+          “Soniquete”, “Laslolaslocal”, “Laslolasclub” y la casa rural “El
+          paraíso de laslolas”. Hasta la fecha, Susana ha publicado 6 libros
+          ilustrados. Actualmente, es ilustradora “freelance”
+          (FlamencasFantásticas, Festival Kriatura, entre otros) y responsable
+          del espacio creativo “La cueva de Laslolas” en El Masnou.
+        </p>
+        <p></p>
+        <p></p>
+      </main>
+      <div className="flex justify-end sticky bottom-0 pointer-events-none">
         <Image
-          src="/images/bio/susu0.webp"
+          src="/images/bio/susinfondo.webp"
           alt="Susana Subirana"
           width={300}
           height={300}
-          className="rounded-lg object-cover"
+          className="object-contain w-32 sm:w-64 md:w-80 h-auto "
         />
       </div>
-    </main>
+    </div>
   );
 };
 export default Bio;
