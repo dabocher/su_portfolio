@@ -3,6 +3,7 @@ import {
   faInstagram,
   faFacebook,
   faXTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
@@ -22,6 +23,12 @@ export const Footer = () => {
         </Link>
         <Link href="https://x.com/susiyole" target="_blank">
           <FontAwesomeIcon icon={faXTwitter} className="w-5 h-5" />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/susana-subirana-1b109930/"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
         </Link>
         <Link href="mailto:susanasusana363@gmail.com" target="_blank">
           <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5" />
