@@ -157,4 +157,10 @@ export const proyectos = [
     description: `Ilustraciones para el diario "Ara" de Barcelona. Serie de ilustraciones para la sección de cultura del diario.`,
     year: 2014,
   },
+  {
+    id: "5",
+    title: "Churro",
+    description: "Estampación de una furgoneta ambulante de Xurreries Montse.",
+    year: 2021,
+  },
 ];
