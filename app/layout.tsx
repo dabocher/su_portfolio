@@ -23,14 +23,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Susanna Subirana - Portfolio",
-  description: "Ilustraciones y diseño gráfico de Susanna Subirana",
+  description:
+    "Ilustraciones y diseño gráfico de Susanna Subirana. Diseño web y desarrollo por David Botello Chércoles",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html
       lang="es"
@@ -43,4 +44,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

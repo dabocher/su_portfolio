@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="w-full h-16 flex flex-col items-center justify-center text-sm text-zinc-600">
+    <footer className="w-full h-16 flex flex-col gap-1 items-center justify-center text-sm text-zinc-600 ">
       <div className="flex gap-4">
         <Link
           href="https://www.instagram.com/susanasubiranalopez/"
@@ -34,7 +34,12 @@ export const Footer = () => {
           <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5" />
         </Link>
       </div>
-      <p>© 2026 Susana Subirana. Todos los derechos reservados.</p>
+      <p className="text-zinc-800 ">
+        © 2026 Susana Subirana. Todos los derechos reservados.
+      </p>
+      <p className="text-xs text-[#dcd7ccdd] font-yanone ">
+        Diseño web y desarrollo por daboc
+      </p>
     </footer>
   );
 };
