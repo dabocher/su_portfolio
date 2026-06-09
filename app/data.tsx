@@ -8,6 +8,7 @@ export const libros = [
     year: 2019,
     author: "Montse Ganges",
     illustrator: "Susana Subirana",
+    hasAnimation: false,
   },
   {
     id: "2",
@@ -18,6 +19,7 @@ export const libros = [
     year: 2013,
     author: "Montse Ganges",
     illustrator: "Susana Subirana",
+    hasAnimation: false,
   },
   {
     id: "3",
@@ -28,6 +30,7 @@ export const libros = [
     year: 2011,
     author: "Montse Ganges",
     illustrator: "Susana Subirana",
+    hasAnimation: false,
   },
   {
     id: "4",
@@ -38,6 +41,7 @@ export const libros = [
     year: 2022,
     author: "Almudena Navarro",
     illustrator: "Susana Subirana",
+    hasAnimation: false,
   },
   {
     id: "5",
@@ -48,6 +52,7 @@ export const libros = [
     year: 2025,
     author: "Almudena Navarro, Rocío Moreno",
     illustrator: "Susana Subirana",
+    hasAnimation: false,
   },
   {
     id: "6",
@@ -58,6 +63,7 @@ export const libros = [
     year: 2020,
     author: "Susana Subirana",
     illustrator: "Susana Subirana",
+    hasAnimation: false,
   },
 ];
 
@@ -137,6 +143,7 @@ export const proyectos = [
     description:
       "Trabajo realizado para la clínica Mi Tres Torres de Barcelona. Serie de ilustraciones inspiradas en conceptos sanadores de la filosofía tradicional japonesa.",
     year: 2026,
+    hasAnimation: false,
   },
   {
     id: "2",
@@ -144,29 +151,34 @@ export const proyectos = [
     description:
       "Proyecto de ilustración fotográfica en colaboración con la fotógrafa Isa de la Calle. Exposición itinerante por diferentes ciudades españolas.",
     year: 2022,
+    hasAnimation: false,
   },
   {
     id: "3",
     title: "Guzzo",
     description: "Postales para el restaurante Guzzo Club de Barcelona.",
     year: 2016,
+    hasAnimation: false,
   },
   {
     id: "4",
     title: "Diari ARA",
     description: `Ilustraciones para el diario "Ara" de Barcelona. Serie de ilustraciones para la sección de cultura del diario.`,
     year: 2014,
+    hasAnimation: false,
   },
   {
     id: "5",
     title: "Churro",
     description: "Estampación de una furgoneta ambulante de Xurreries Montse.",
     year: 2021,
+    hasAnimation: false,
   },
   {
     id: "6",
     title: "Retratos Animaloides",
     description: "Retratos ilustrados de animales de compañía.",
     year: 2022,
+    hasAnimation: true,
   },
 ];

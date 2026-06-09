@@ -1,5 +1,6 @@
 import Image from "next/image";
-import ImageModal from "./ImageModal";
+import { ImageModal } from "./ImageModal";
+import { ImageAnimation } from "./ImageAnimation";
 
 interface CardProjectProps {
   id: string;
@@ -7,6 +8,7 @@ interface CardProjectProps {
   title: string;
   description: string;
   year: number;
+  hasAnimation: boolean;
 }
 
 export const CardProject = ({
@@ -15,6 +17,7 @@ export const CardProject = ({
   title,
   description,
   year,
+  hasAnimation = false,
 }: CardProjectProps) => {
   const projectImageSrc = Array.from({ length: 4 }, (_, i) => ({
     id: i + 1,
@@ -42,7 +45,18 @@ export const CardProject = ({
         </div>
       </div>
 
-      <ImageModal images={projectImageSrc} />
+      <ImageModal
+        images={projectImageSrc}
+        renderModal={
+          hasAnimation
+            ? (img) => (
+                <div onClick={(e) => e.stopPropagation()}>
+                  <ImageAnimation src={img.src} />
+                </div>
+              )
+            : undefined
+        }
+      />
     </div>
   );
 };

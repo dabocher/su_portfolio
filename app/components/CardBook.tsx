@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImageModal from "./ImageModal";
+import { ImageModal } from "./ImageModal";
 
 interface CardBookProps {
   id: string;

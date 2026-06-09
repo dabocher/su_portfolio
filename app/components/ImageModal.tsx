@@ -3,11 +3,19 @@
 import Image from "next/image";
 import { useState } from "react";
 
-interface ImageModalProps {
-  images: { id: number; src: string; alt: string }[];
+interface ImageItem {
+  id: number;
+  src: string;
+  alt: string;
 }
-const ImageModal = ({ images }: ImageModalProps) => {
-  const [selectedSrc, setSelectedSrc] = useState<string | null>(null);
+
+interface ImageModalProps {
+  images: ImageItem[];
+  renderModal?: (img: ImageItem) => React.ReactNode;
+}
+
+export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
+  const [selectedImg, setSelectedImg] = useState<ImageItem | null>(null);
 
   return (
     <>
@@ -16,7 +24,7 @@ const ImageModal = ({ images }: ImageModalProps) => {
           <div
             key={index}
             className="relative w-full aspect-[4/3] cursor-pointer"
-            onClick={() => setSelectedSrc(img.src)}
+            onClick={() => setSelectedImg(img)}
           >
             <Image
               src={img.src}
@@ -28,23 +36,25 @@ const ImageModal = ({ images }: ImageModalProps) => {
         ))}
       </div>
 
-      {selectedSrc && (
+      {selectedImg && (
         <div
           className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4"
-          onClick={() => setSelectedSrc(null)}
+          onClick={() => setSelectedImg(null)}
         >
-          <div className="relative w-full max-w-2xl aspect-[4/3]">
-            <Image
-              src={selectedSrc}
-              alt="Imagen ampliada"
-              fill
-              className="rounded-lg object-contain"
-            />
-          </div>
+          {renderModal ? (
+            renderModal(selectedImg)
+          ) : (
+            <div className="relative w-full max-w-2xl ">
+              <Image
+                src={selectedImg.src}
+                alt="Imagen ampliada"
+                fill
+                className="rounded-lg object-contain"
+              />
+            </div>
+          )}
         </div>
       )}
     </>
   );
 };
-
-export default ImageModal;

@@ -15,6 +15,7 @@ const ProyectosPage = () => {
           description={proyecto.description}
           year={proyecto.year}
           id={proyecto.id}
+          hasAnimation={proyecto.hasAnimation}
         />
       )}
     />
