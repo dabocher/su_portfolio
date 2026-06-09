@@ -7,14 +7,14 @@ const links = [
   { href: "/ilustraciones/proyectos", label: "Proyectos" },
   { href: "/ilustraciones/libros", label: "Libros" },
   { href: "/ilustraciones/carteles", label: "Carteles" },
-  { href: "/ilustraciones/animaciones", label: "Animaciones" },
+
   { href: "/ilustraciones/logos", label: "Logos" },
 ];
 
 export const IllustrationsLinks = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex gap-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+    <nav className="flex gap-10 sm:gap-16 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
       {links.map((link) => (
         <Link
           key={link.href}
