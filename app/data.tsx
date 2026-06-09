@@ -163,4 +163,10 @@ export const proyectos = [
     description: "Estampación de una furgoneta ambulante de Xurreries Montse.",
     year: 2021,
   },
+  {
+    id: "6",
+    title: "Retratos Animaloides",
+    description: "Retratos ilustrados de animales de compañía.",
+    year: 2022,
+  },
 ];
