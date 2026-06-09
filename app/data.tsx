@@ -108,10 +108,10 @@ export const carteles = [
   },
   {
     id: "6",
-    title: `Exposición de ilustraciones del libro "Lola Flores ¿Cómo me las maravillaría yo?"`,
-    description: "",
-    image: "/images/carteles/cartel6.webp",
-    year: 2022,
+    title: `Cartel para el Festival Internacional "Kriatura" de Flamenco para niños (Dinamarca-Jerez)`,
+    description: "Échale papa",
+    image: "/images/carteles/cartel9.webp",
+    year: 2026,
   },
   {
     id: "7",
@@ -129,10 +129,31 @@ export const carteles = [
   },
   {
     id: "9",
-    title: `Cartel para el Festival Internacional "Kriatura" de Flamenco para niños (Dinamarca-Jerez)`,
-    description: "Échale papa",
+    title: `Portada de revista`,
+    description: "",
     image: "/images/carteles/cartel9.webp",
     year: 2026,
+  },
+  {
+    id: "10",
+    title: `Cartel II Feria Solidaria`,
+    description: "Sevillanas por un NIÑO",
+    image: "/images/carteles/cartel10.webp",
+    year: 2026,
+  },
+  {
+    id: "11",
+    title: `Portada álbum "Opus II"`,
+    description: "Candela y lo demás",
+    image: "/images/carteles/cartel11.webp",
+    year: 2025,
+  },
+  {
+    id: "12",
+    title: `Portada sencillo "Cercanias"`,
+    description: "Candela y lo demás",
+    image: "/images/carteles/cartel12.webp",
+    year: 2025,
   },
 ];
 
