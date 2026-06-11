@@ -22,9 +22,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Susanna Subirana - Portfolio",
+  title: "Susana Subirana - Portfolio",
   description:
-    "Ilustraciones y diseño gráfico de Susanna Subirana. Diseño web y desarrollo por David Botello Chércoles",
+    "Ilustraciones y diseño gráfico de Susana Subirana. Diseño web y desarrollo por David Botello Chércoles",
 };
 
 const RootLayout = ({
