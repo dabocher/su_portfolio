@@ -26,15 +26,22 @@ export const CardShop = ({
       <h3>{description}</h3>
 
       <div className="flex justify-between">
-        <p>Calidad papel: 300g/m2</p>
-        <p>Resolución: {resolution}</p>
-        <p>Tamaños disponibles: 3600 x 1800 cm</p>
+        <div>
+          <p>Calidad papel: </p>
+          <p>300g/m2</p>
+        </div>
+        <div>
+          <p>Resolución: </p> <p>{resolution}</p>
+        </div>
+        <div>
+          <p>Tamaños disponibles: </p> <p>3600 x 1800 cm</p>
+        </div>
       </div>
 
       <div className="flex justify-between">
         <p>Precio: 36 euros</p>
 
-        <button className="rounded-lg px-4 py-2 bg-green-300">Comprar</button>
+        <button className="rounded-lg px-4 py-1 bg-green-300">Comprar</button>
       </div>
     </div>
   );
