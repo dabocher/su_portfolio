@@ -203,3 +203,90 @@ export const proyectos = [
     hasAnimation: true,
   },
 ];
+
+export const obras = [
+  {
+    id: "1",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "La Fabi",
+    description:
+      "La Fabi (Fabiola Pérez) es una destacada cantaora nacida en Arcos de la Frontera (Cádiz). Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/LaFabi.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "2",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Ana Crisman",
+    description:
+      "Ana Crisman, nacida en Jerez de la Frontera (Cádiz), es la primera artista que toca flamenco con arpa. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/AnaCrisman.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "3",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Gema Moneo",
+    description:
+      "Gema Moneo (nacida en Jerez de la Frontera en 1991) es una destacada bailaora y cantaora flamenca. Destaca por su técnica en el taconeo y su gran expresividad. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/GemaMoneo.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "4",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Sofía del Río",
+    description:
+      "Sofía del Río es una destacada bailaora de flamenco madrileña con alma jerezana, reconocida por su fuerza y versatilidad. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/SofiaDelRio.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "5",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Pastora Galván",
+    description:
+      "Pastora Galván es una destacada bailaora flamenca nacida en Sevilla. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/PastoraGalvan.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "6",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "María del Tango",
+    description:
+      "María del Tango es una destacada bailaora y cantaora flamenca. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/MariaDelTango.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "7",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Mercedes Ruiz",
+    description:
+      "Mercedes Ruiz es una destacada bailaora y cantaora flamenca nacida en Jerez de la Frontera. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/MercedesRuiz.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+];
