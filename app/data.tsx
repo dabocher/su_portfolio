@@ -289,4 +289,52 @@ export const obras = [
     isForSale: true,
     resolution: "1600x1200",
   },
+  {
+    id: "8",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Leonor Leal",
+    description:
+      "Leonor Leal es una destacada bailaora y cantaora flamenca nacida en Jerez de la Frontera. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/LeonorLeal.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "9",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Juana La Del Pipa",
+    description:
+      "Juana La Del Pipa (Juana Fernández), cantaora y bailaora gitana, es de una de las puras  razas de artistas del mundo del mejor arte del cante y el baile flamenco, nacida en Jerez de la Frontera (Cádiz). Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/JuanaLaDelPipa.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "10",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Paula Sierra",
+    description:
+      "Paula Sierra es bailaora de flamenco que viene a defender el baile flamenco más puro. Es nacida en San Fernando (Cádiz). Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/PaulaSierra.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
+  {
+    id: "11",
+    type: "Fotografía Ilustrada",
+    project: "Flamencas Ilustradas",
+    title: "Manuela Carpio",
+    description:
+      "Manuela Carpio es una destacada bailaora flamenca nacida en Jerez de la Frontera. Fotografía de Isa de la Calle e ilustración de Susana Subirana en el Jerez OFF Festival 2023.",
+    image: "/images/obras/ManuelaCarpio.webp",
+    year: 2023,
+    isForSale: true,
+    resolution: "1600x1200",
+  },
 ];
