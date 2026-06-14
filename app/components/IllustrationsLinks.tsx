@@ -14,7 +14,7 @@ const links = [
 export const IllustrationsLinks = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex gap-10  text-xl sm:text-2xl ">
+    <nav className="flex gap-4 sm:gap-10  text-xl sm:text-2xl ">
       {links.map((link) => (
         <Link
           key={link.href}
