@@ -221,6 +221,23 @@ export const animaciones = [
     hasAnimation: true,
     year: 2022,
   },
+  {
+    id: "2",
+    title: "Las Tatas Flamencas",
+    description: "",
+    image: "/images/animaciones/animacion2.mp4",
+    hasAnimation: true,
+    year: 2022,
+  },
+  {
+    id: "3",
+    title: "La Ventana de Lola",
+    description:
+      "Animación creada a partir de ilustración para FESTIVAL KRIATURA en primavera,  Jerez de la Frontera. Para proyectar en las fachadas de Jerez, en homenaje a Lola Flores. Susana Subirana, ilustración, idea, canción e interpretación. Colaboradores: Jordi Teixidó y Àlex Ventura. Inspirado en la protagonista de Flamencasfantásticas, Lola Flores..",
+    image: "/images/animaciones/animacion3.mp4",
+    hasAnimation: true,
+    year: 2022,
+  },
 ];
 
 export const obras = [
