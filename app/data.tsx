@@ -206,9 +206,9 @@ export const proyectos = [
   {
     id: "7",
     title: "MaLaMar",
-    description: `MALAMAR  es un montaje  que escenifica el impulso necesario para ir contra corriente, para navegar contra el viento, para encontrar la calma después de la tormenta. Es una “performance” que mezcla ilustración proyectada, efectos de luces y sombras, baile flamenco, música y efectos de sonido.`,
+    description: `Montaje  que escenifica el impulso necesario para ir contra corriente, para navegar contra el viento, para encontrar la calma después de la tormenta. Es una “performance” que mezcla ilustración proyectada, efectos de luces y sombras, baile flamenco, música y efectos de sonido.`,
     year: 2022,
-    hasAnimation: true,
+    hasAnimation: false,
   },
 ];
 
