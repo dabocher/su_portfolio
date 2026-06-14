@@ -212,6 +212,17 @@ export const proyectos = [
   },
 ];
 
+export const animaciones = [
+  {
+    id: "1",
+    title: "MaLaMar",
+    description: `Montaje  que escenifica el impulso necesario para ir contra corriente, para navegar contra el viento, para encontrar la calma después de la tormenta. Es una “performance” que mezcla ilustración proyectada, efectos de luces y sombras, baile flamenco, música y efectos de sonido.`,
+    image: "/images/animaciones/MaLaMar.mp4",
+    hasAnimation: true,
+    year: 2022,
+  },
+];
+
 export const obras = [
   {
     id: "1",

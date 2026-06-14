@@ -7,8 +7,8 @@ const links = [
   { href: "/ilustraciones/proyectos", label: "Proyectos" },
   { href: "/ilustraciones/libros", label: "Libros" },
   { href: "/ilustraciones/carteles", label: "Carteles" },
-
   { href: "/ilustraciones/logos", label: "Logos" },
+  { href: "/ilustraciones/animaciones", label: "Animaciones" },
 ];
 
 export const IllustrationsLinks = () => {
