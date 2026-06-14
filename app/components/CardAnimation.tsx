@@ -13,7 +13,7 @@ export const CardAnimation = ({
 }: CardAnimationProps) => {
   return (
     <div className="font-yanone bg-[#f5efe6] text-zinc-800 p-4 rounded-lg flex flex-col gap-2 items-center w-full">
-      <div className="relative w-full">
+      <div className="relative w-full flex items-center justify-center">
         <ImageAnimation src={`/images/animaciones/animacion${id}.webp`} />
       </div>
       <h2 className="text-2xl font-sans font-semibold">{title}</h2>{" "}
