@@ -23,13 +23,14 @@ export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
         {images.map((img, index) => (
           <div
             key={index}
-            className="relative w-full aspect-[4/3] cursor-pointer"
+            className="relative w-full aspect-video cursor-pointer"
             onClick={() => setSelectedImg(img)}
           >
             <Image
               src={img.src}
               alt={img.alt}
               fill
+              sizes="(max-width: 768px) 50vw, 33vw"
               className="rounded-lg object-cover hover:opacity-80 transition-opacity"
             />
           </div>
@@ -44,11 +45,12 @@ export const ImageModal = ({ images, renderModal }: ImageModalProps) => {
           {renderModal ? (
             renderModal(selectedImg)
           ) : (
-            <div className="relative w-full max-w-2xl ">
+            <div className="relative w-[80vw] h-[80vh]">
               <Image
                 src={selectedImg.src}
                 alt="Imagen ampliada"
                 fill
+                sizes="80vw"
                 className="rounded-lg object-contain"
               />
             </div>
