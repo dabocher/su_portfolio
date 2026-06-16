@@ -1,6 +1,6 @@
 import { CardLogo } from "@/app/components/CardLogo";
 
-const images = Array.from({ length: 9 }, (_, i) => ({
+const images = Array.from({ length: 10 }, (_, i) => ({
   id: i + 1,
   src: `/images/logos/logo${i + 1}.webp`,
   alt: `Logo ${i + 1}`,
