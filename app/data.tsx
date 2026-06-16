@@ -210,6 +210,14 @@ export const proyectos = [
     year: 2022,
     hasAnimation: false,
   },
+  {
+    id: "8",
+    title: "¿YO?",
+    description:
+      "Serie de ilustraciones sobre  personajes caricaturizados  que pretenden visibilizar de forma crítica  la autonegación,  la evasión de  los adjetivos que los definen.",
+    year: 2022,
+    hasAnimation: true,
+  },
 ];
 
 export const animaciones = [
