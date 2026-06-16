@@ -232,7 +232,7 @@ export const animaciones = [
   {
     id: "2",
     title: "Las Tatas Flamencas",
-    description: "",
+    description: `Ilustraciones para proyecto, animación y próximo libro de las TATAS FLAMENCAS. "TATAS FLAMENCAS" es un  homenaje a las Abuelas Flamencas y gitanas del barrio Santiago, de Jerez de la Frontera, Andalucía. Animación creada para presentara a las Tatas y mostrar las partes de una "pataíta" por Bulerías. Forma parte de una serie de proyectos eductivos  sobre Flamenco para las escuelas .`,
     image: "/images/animaciones/animacion2.mp4",
     hasAnimation: true,
     year: 2022,
