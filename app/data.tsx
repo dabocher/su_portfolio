@@ -218,6 +218,13 @@ export const proyectos = [
     year: 2022,
     hasAnimation: true,
   },
+  {
+    id: "9",
+    title: "",
+    description: "",
+    year: 2022,
+    hasAnimation: false,
+  },
 ];
 
 export const animaciones = [
@@ -243,6 +250,15 @@ export const animaciones = [
     description:
       "Animación creada a partir de ilustración para FESTIVAL KRIATURA en primavera,  Jerez de la Frontera. Para proyectar en las fachadas de Jerez, en homenaje a Lola Flores. Susana Subirana, ilustración, idea, canción e interpretación. Colaboradores: Jordi Teixidó y Àlex Ventura. Inspirado en la protagonista de Flamencasfantásticas, Lola Flores..",
     image: "/images/animaciones/animacion3.mp4",
+    hasAnimation: true,
+    year: 2022,
+  },
+  {
+    id: "4",
+    title: "Flamencopool",
+    description:
+      "Imagen fotográfica de Isa delaCalle y ilustración animada Susana Subirana",
+    image: "/images/animaciones/animacion4.mp4",
     hasAnimation: true,
     year: 2022,
   },
