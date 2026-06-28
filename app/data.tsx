@@ -25,7 +25,7 @@ export const libros = [
     id: "3",
     title: "¿De qué están hechas las niñas flamencas?",
     description:
-      "Las niñas flamencas viven en un mundo de lunares y flores, de alegrías y colores, de corazones y ¡oles! Descubre el duende del flamenco de la mano de sus singulares protagonistas, las niñas flamencas, en este festival pop-up lleno de arte, humor y poesía. Incluye un tablao flamenco y las muñecas de las niñas flamencas.",
+      "Primer libro POP_UP sobre flamenco para niños. Álbum ilustrado que utiliza el Pop-up con solapas, tiradores, ruedas giratorias, carrusel y final con teatrillo. Editado por Combel-Casals en 2011, descatalogado.",
     image: "/images/libros/libro3.webp",
     year: 2011,
     author: "Montse Ganges",
