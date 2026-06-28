@@ -177,7 +177,8 @@ export const proyectos = [
   {
     id: "3",
     title: "Guzzo",
-    description: "Postales para el restaurante Guzzo Club de Barcelona.",
+    description:
+      "Serie de ilustraciones para flyers, carta de bebidas y postales del Club Guzzo de Barcelona.",
     year: 2016,
     hasAnimation: false,
   },
@@ -220,8 +221,9 @@ export const proyectos = [
   },
   {
     id: "9",
-    title: "",
-    description: "",
+    title: "Vinos",
+    description:
+      "Serie de ilustraciones en blanco y negro sobre la relación entre el vino y nosotros. Propuesta para restaurante.",
     year: 2022,
     hasAnimation: false,
   },
