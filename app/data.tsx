@@ -222,7 +222,7 @@ export const proyectos = [
   },
   {
     id: "9",
-    title: "Vinos",
+    title: "VI-NOS",
     description:
       "Serie de ilustraciones en blanco y negro sobre la relación entre el vino y nosotros. Propuesta para restaurante.",
     year: 2022,
