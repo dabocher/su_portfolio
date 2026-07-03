@@ -7,7 +7,7 @@ const links = [
   { href: "/", label: "Inicio" },
   { href: "/ilustraciones/proyectos", label: "Ilustración" },
   { href: "/bio", label: "Bio" },
-  { href: "/tienda", label: "Tienda" },
+  //{ href: "/tienda", label: "Tienda" },
 ];
 
 export const NavLinks = () => {
