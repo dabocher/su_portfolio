@@ -14,7 +14,7 @@ export const libros = [
     id: "2",
     title: "¿Cómo se llaman las niñas flamencas?",
     description:
-      "Las Niñas Flamencas tienen nombres que suenan a palmas, secretos, olas, truenos, taconeo, cascabeles, risas, susurros, lluvia, fiesta... Las Niñas Flamencas se llaman como son. ¿Y tú? ¡Conócelas e inventa tu nombre flamenco!",
+      "Las Niñas Flamencas tienen nombres que suenan a palmas, secretos, olas, truenos, taconeo, cascabeles, risas, susurros, lluvia, fiesta... Las Niñas Flamencas se llaman como son. ¿Y tú? ¡Conócelas e inventa tu nombre flamenco! Album ilustrado que utiliza efectos pop-up como el Diorama o Carrusel. Editado por Combel-Casals",
     image: "/images/libros/libro2.webp",
     year: 2013,
     author: "Montse Ganges",
