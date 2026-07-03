@@ -185,14 +185,15 @@ export const proyectos = [
   {
     id: "4",
     title: "Diari ARA",
-    description: `Ilustraciones para el diario "Ara" de Barcelona. Serie de ilustraciones para la sección de cultura del diario.`,
+    description: `Selección de ilustraciones para artículos de opinión realizadas durante los 5 primeros años del periódico "Ara" de Barcelona.`,
     year: 2014,
     hasAnimation: false,
   },
   {
     id: "5",
-    title: "Churro",
-    description: "Estampación de una furgoneta ambulante de Xurreries Montse.",
+    title: "Food Truck",
+    description:
+      "Ilustración para vinilado de carrocería e ilustraciones personalizadas para el interior.",
     year: 2021,
     hasAnimation: false,
   },
