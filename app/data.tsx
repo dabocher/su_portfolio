@@ -264,6 +264,15 @@ export const animaciones = [
     hasAnimation: true,
     year: 2022,
   },
+  {
+    id: "5",
+    title: "The Masnounien",
+    description:
+      "Presentación del proyecto dentro del Festival FASCURT del Masnou, julio 2026.",
+    image: "/images/animaciones/animacion5.mp4",
+    hasAnimation: true,
+    year: 2026,
+  },
 ];
 
 export const obras = [
