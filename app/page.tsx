@@ -1,11 +1,6 @@
-import Image from "next/image";
-import CardHome from "./components/CardHome";
+import { AnimatedCollage } from "./components/AnimatedCollage";
 
-const images = Array.from({ length: 9 }, (_, i) => ({
-  id: i + 1,
-  src: `/images/home/susu${i + 1}.webp`,
-  alt: `Susana Subirana ${i + 1}`,
-}));
+export const dynamic = "force-dynamic";
 
 const HomePage = () => {
   return (
@@ -13,16 +8,8 @@ const HomePage = () => {
       <h1 className="text-[48px] md:text-[64px] font-semibold leading-10 tracking-tight text-center">
         Susana Subirana <span className="text-red-600">Portfolio</span>
       </h1>
-      <div className="w-full  bg-[#f5efe6]  p-4 rounded-lg">
-        <div className="h-full w-full">
-          <Image
-            src="/images/home/collagehome.webp"
-            alt="Collage Home"
-            width={500}
-            height={500}
-          />
-        </div>
-      </div>
+
+      <AnimatedCollage />
     </main>
   );
 };
