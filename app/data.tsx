@@ -455,3 +455,502 @@ export const obras = [
     resolution: "1600x1200",
   },
 ];
+
+export interface Illustration {
+  id: string;
+  src: string;
+  alt: string;
+}
+
+export const imagePool: Illustration[] = [
+  {
+    id: "1",
+    src: "/images/logos/logo1.webp",
+    alt: "Logo Flamencas Ilustradas",
+  },
+  {
+    id: "2",
+    src: "/images/logos/logo2.webp",
+    alt: "Logo Festival Kriatura",
+  },
+  {
+    id: "3",
+    src: "/images/logos/logo3.webp",
+    alt: "Logo WA",
+  },
+  {
+    id: "4",
+    src: "/images/logos/logo4.webp",
+    alt: "Logo Flamencas Fantásticas",
+  },
+  {
+    id: "5",
+    src: "/images/logos/logo5.webp",
+    alt: "Logo JAM&ÑAM",
+  },
+  {
+    id: "6",
+    src: "/images/logos/logo6.webp",
+    alt: "Logo ARTTE",
+  },
+  {
+    id: "7",
+    src: "/images/logos/logo7.webp",
+    alt: "Logo JALEARTE",
+  },
+  {
+    id: "8",
+    src: "/images/logos/logo8.webp",
+    alt: "Logo SINTEGRITAT",
+  },
+  {
+    id: "9",
+    src: "/images/logos/logo9.webp",
+    alt: "Logo MaLaMar",
+  },
+  {
+    id: "10",
+    src: "/images/logos/logo10.webp",
+    alt: "Logo La Cueva de LASLOLAS",
+  },
+  {
+    id: "11",
+    src: "/images/libros/libro1/libro11.webp",
+    alt: "Ilustración del libro De Los pies a La Cabeza. Mi 1er Vocabulario Flamenco",
+  },
+  {
+    id: "12",
+    src: "/images/libros/libro1/libro12.webp",
+    alt: "Ilustración del libro De Los pies a La Cabeza. Mi 1er Vocabulario Flamenco",
+  },
+  {
+    id: "13",
+    src: "/images/libros/libro1/libro13.webp",
+    alt: "Ilustración del libro De Los pies a La Cabeza. Mi 1er Vocabulario Flamenco",
+  },
+  {
+    id: "14",
+    src: "/images/libros/libro1/libro14.webp",
+    alt: "Ilustración del libro De Los pies a La Cabeza. Mi 1er Vocabulario Flamenco",
+  },
+  {
+    id: "15",
+    src: "/images/libros/libro2/libro21.webp",
+    alt: "Ilustración del libro Cómo se llaman las niñas flamencas?",
+  },
+  {
+    id: "16",
+    src: "/images/libros/libro2/libro22.webp",
+    alt: "Ilustración del libro Cómo se llaman las niñas flamencas?",
+  },
+  {
+    id: "17",
+    src: "/images/libros/libro2/libro23.webp",
+    alt: "Ilustración del libro Cómo se llaman las niñas flamencas?",
+  },
+  {
+    id: "18",
+    src: "/images/libros/libro2/libro24.webp",
+    alt: "Ilustración del libro Cómo se llaman las niñas flamencas?",
+  },
+  {
+    id: "19",
+    src: "/images/libros/libro3/libro31.webp",
+    alt: "Ilustración del libro De qué están hechas las niñas flamencas?",
+  },
+  {
+    id: "20",
+    src: "/images/libros/libro3/libro32.webp",
+    alt: "Ilustración del libro De qué están hechas las niñas flamencas?",
+  },
+  {
+    id: "21",
+    src: "/images/libros/libro3/libro33.webp",
+    alt: "Ilustración del libro De qué están hechas las niñas flamencas?",
+  },
+  {
+    id: "22",
+    src: "/images/libros/libro3/libro34.webp",
+    alt: "Ilustración del libro De qué están hechas las niñas flamencas?",
+  },
+  {
+    id: "23",
+    src: "/images/libros/libro4/libro41.webp",
+    alt: "Ilustración del libro Lola Flores ¿Cómo me las maravillará yo?",
+  },
+  {
+    id: "24",
+    src: "/images/libros/libro4/libro42.webp",
+    alt: "Ilustración del libro Lola Flores ¿Cómo me las maravillará yo?",
+  },
+  {
+    id: "25",
+    src: "/images/libros/libro4/libro43.webp",
+    alt: "Ilustración del libro Lola Flores ¿Cómo me las maravillará yo?",
+  },
+  {
+    id: "26",
+    src: "/images/libros/libro4/libro44.webp",
+    alt: "Ilustración del libro Lola Flores ¿Cómo me las maravillará yo?",
+  },
+  {
+    id: "27",
+    src: "/images/libros/libro5/libro51.webp",
+    alt: "Ilustración del libro Currita Nuñez. Una lagartija muy flamenca",
+  },
+  {
+    id: "28",
+    src: "/images/libros/libro5/libro52.webp",
+    alt: "Ilustración del libro Currita Nuñez. Una lagartija muy flamenca",
+  },
+  {
+    id: "29",
+    src: "/images/libros/libro5/libro53.webp",
+    alt: "Ilustración del libro Currita Nuñez. Una lagartija muy flamenca",
+  },
+  {
+    id: "30",
+    src: "/images/libros/libro5/libro54.webp",
+    alt: "Ilustración del libro Currita Nuñez. Una lagartija muy flamenca",
+  },
+  {
+    id: "31",
+    src: "/images/libros/libro6/libro61.webp",
+    alt: "Ilustración del libro Flamenco y rumba desde Cataluña",
+  },
+  {
+    id: "32",
+    src: "/images/libros/libro6/libro62.webp",
+    alt: "Ilustración del libro Flamenco y rumba desde Cataluña",
+  },
+  {
+    id: "33",
+    src: "/images/libros/libro6/libro63.webp",
+    alt: "Ilustración del libro Flamenco y rumba desde Cataluña",
+  },
+  {
+    id: "34",
+    src: "/images/libros/libro6/libro64.webp",
+    alt: "Ilustración del libro Flamenco y rumba desde Cataluña",
+  },
+  {
+    id: "35",
+    src: "/images/carteles/cartel1.webp",
+    alt: "Cartel Belleza en extinción, The Masnounien num.45",
+  },
+  {
+    id: "36",
+    src: "/images/carteles/cartel2.webp",
+    alt: "Cartel Mas Now, The Masnounien num.13",
+  },
+  {
+    id: "37",
+    src: "/images/carteles/cartel3.webp",
+    alt: "Cartel Exposición de Flamencas Ilustradas",
+  },
+  {
+    id: "38",
+    src: "/images/carteles/cartel4.webp",
+    alt: "Cartel Festival Internacional Kriatura de Flamenco infantil y juvenil (Dinamarca-Jerez)",
+  },
+  {
+    id: "39",
+    src: "/images/carteles/cartel5.webp",
+    alt: "Cartel Festival Internacional Kriatura de Flamenco para niños (Dinamarca-Jerez)",
+  },
+  {
+    id: "40",
+    src: "/images/carteles/cartel6.webp",
+    alt: "Cartel Festival Internacional Kriatura de Flamenco para niños (Dinamarca-Jerez) Échale papa",
+  },
+  {
+    id: "41",
+    src: "/images/carteles/cartel7.webp",
+    alt: "Cartel Festival FlamencGi (Girona)",
+  },
+  {
+    id: "42",
+    src: "/images/carteles/cartel8.webp",
+    alt: "Cartel Espectáculo LOLA, Flamenco direct from Jerez, Little Big Festival en Glastonbury (Reino Unido)",
+  },
+  {
+    id: "43",
+    src: "/images/carteles/cartel9.webp",
+    alt: "Portada de revista ZeroB",
+  },
+  {
+    id: "44",
+    src: "/images/carteles/cartel10.webp",
+    alt: "Cartel Feria Silo Solidaria Sevillanas por un NIÑO",
+  },
+  {
+    id: "45",
+    src: "/images/carteles/cartel11.webp",
+    alt: "Portada álbum Opus II, Candela y lo demás",
+  },
+  {
+    id: "46",
+    src: "/images/carteles/cartel12.webp",
+    alt: "Portada sencillo Cercanias, Candela y lo demás",
+  },
+  {
+    id: "47",
+    src: "/images/proyectos/proyecto1/proyecto11.webp",
+    alt: "Ilustración del proyecto WA, Armonía y equilibrio entre fuerzas opuestas",
+  },
+  {
+    id: "48",
+    src: "/images/proyectos/proyecto1/proyecto12.webp",
+    alt: "Ilustración del proyecto WA, Armonía y equilibrio entre fuerzas opuestas",
+  },
+  {
+    id: "49",
+    src: "/images/proyectos/proyecto1/proyecto13.webp",
+    alt: "Ilustración del proyecto WA, Armonía y equilibrio entre fuerzas opuestas",
+  },
+  {
+    id: "50",
+    src: "/images/proyectos/proyecto1/proyecto14.webp",
+    alt: "Ilustración del proyecto WA, Armonía y equilibrio entre fuerzas opuestas",
+  },
+  {
+    id: "51",
+    src: "/images/proyectos/proyecto3/proyecto31.webp",
+    alt: "Ilustración para el restaurante Guzzo, Barcelona",
+  },
+  {
+    id: "52",
+    src: "/images/proyectos/proyecto3/proyecto32.webp",
+    alt: "Ilustración para el restaurante Guzzo, Barcelona",
+  },
+  {
+    id: "53",
+    src: "/images/proyectos/proyecto3/proyecto33.webp",
+    alt: "Ilustración para el restaurante Guzzo, Barcelona",
+  },
+  {
+    id: "54",
+    src: "/images/proyectos/proyecto3/proyecto34.webp",
+    alt: "Ilustración para el restaurante Guzzo, Barcelona",
+  },
+  {
+    id: "55",
+    src: "/images/proyectos/proyecto4/proyecto41.webp",
+    alt: "Ilustración para el periodico Diari ARA",
+  },
+  {
+    id: "56",
+    src: "/images/proyectos/proyecto4/proyecto42.webp",
+    alt: "Ilustración para el periodico Diari ARA",
+  },
+  {
+    id: "57",
+    src: "/images/proyectos/proyecto4/proyecto43.webp",
+    alt: "Ilustración para el periodico Diari ARA",
+  },
+  {
+    id: "58",
+    src: "/images/proyectos/proyecto4/proyecto44.webp",
+    alt: "Ilustración para el periodico Diari ARA",
+  },
+  {
+    id: "59",
+    src: "/images/proyectos/proyecto5/proyecto51.webp",
+    alt: "Ilustración para el proyecto Food Truck",
+  },
+  {
+    id: "60",
+    src: "/images/proyectos/proyecto5/proyecto52.webp",
+    alt: "Ilustración para el proyecto Food Truck",
+  },
+  {
+    id: "61",
+    src: "/images/proyectos/proyecto5/proyecto53.webp",
+    alt: "Ilustración para el proyecto Food Truck",
+  },
+  {
+    id: "62",
+    src: "/images/proyectos/proyecto5/proyecto54.webp",
+    alt: "Ilustración para el proyecto Food Truck",
+  },
+  {
+    id: "63",
+    src: "/images/proyectos/proyecto6/proyecto61.webp",
+    alt: "Ilustración para el proyecto Retratos Animaloides",
+  },
+  {
+    id: "64",
+    src: "/images/proyectos/proyecto6/proyecto62.webp",
+    alt: "Ilustración para el proyecto Retratos Animaloides",
+  },
+  {
+    id: "65",
+    src: "/images/proyectos/proyecto6/proyecto63.webp",
+    alt: "Ilustración para el proyecto Retratos Animaloides",
+  },
+  {
+    id: "66",
+    src: "/images/proyectos/proyecto6/proyecto64.webp",
+    alt: "Ilustración para el proyecto Retratos Animaloides",
+  },
+  {
+    id: "67",
+    src: "/images/proyectos/proyecto7/proyecto71.webp",
+    alt: "Ilustración para el proyecto MaLaMar",
+  },
+  {
+    id: "68",
+    src: "/images/proyectos/proyecto7/proyecto72.webp",
+    alt: "Ilustración para el proyecto MaLaMar",
+  },
+  {
+    id: "69",
+    src: "/images/proyectos/proyecto7/proyecto73.webp",
+    alt: "Ilustración para el proyecto MaLaMar",
+  },
+  {
+    id: "70",
+    src: "/images/proyectos/proyecto7/proyecto74.webp",
+    alt: "Ilustración para el proyecto MaLaMar",
+  },
+  {
+    id: "71",
+    src: "/images/proyectos/proyecto8/proyecto81.webp",
+    alt: "Ilustración para el proyecto YO?",
+  },
+  {
+    id: "72",
+    src: "/images/proyectos/proyecto8/proyecto82.webp",
+    alt: "Ilustración para el proyecto YO?",
+  },
+  {
+    id: "73",
+    src: "/images/proyectos/proyecto8/proyecto83.webp",
+    alt: "Ilustración para el proyecto YO?",
+  },
+  {
+    id: "74",
+    src: "/images/proyectos/proyecto8/proyecto84.webp",
+    alt: "Ilustración para el proyecto YO?",
+  },
+  {
+    id: "75",
+    src: "/images/proyectos/proyecto9/proyecto91.webp",
+    alt: "Ilustración para el proyecto VI-NOS",
+  },
+  {
+    id: "76",
+    src: "/images/proyectos/proyecto9/proyecto92.webp",
+    alt: "Ilustración para el proyecto VI-NOS",
+  },
+  {
+    id: "77",
+    src: "/images/proyectos/proyecto9/proyecto93.webp",
+    alt: "Ilustración para el proyecto VI-NOS",
+  },
+  {
+    id: "78",
+    src: "/images/proyectos/proyecto9/proyecto94.webp",
+    alt: "Ilustración para el proyecto VI-NOS",
+  },
+  {
+    id: "79",
+    src: "/images/obras/AdelaCampallo.webp",
+    alt: "Ilustración de Adela Campallo para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "80",
+    src: "/images/obras/AnaCrisman.webp",
+    alt: "Ilustración de Ana Crisman para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "81",
+    src: "/images/obras/DoloresAgujetas.webp",
+    alt: "Ilustración de Dolores Agujetas para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "82",
+    src: "/images/obras/GemaMoneo.webp",
+    alt: "Ilustración de Gema Moneo para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "83",
+    src: "/images/obras/JuanaLaDelPipa.webp",
+    alt: "Ilustración de Juana La Del Pipa para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "84",
+    src: "/images/obras/LaFabi.webp",
+    alt: "Ilustración de La Fabi para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "85",
+    src: "/images/obras/LaMacanita.webp",
+    alt: "Ilustración de La Macanita para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "86",
+    src: "/images/obras/LaTiaYoya.webp",
+    alt: "Ilustración de La Tia Yoya para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "87",
+    src: "/images/obras/LeonorLeal.webp",
+    alt: "Ilustración de Leonor Leal para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "88",
+    src: "/images/obras/ManuelaCarpio.webp",
+    alt: "Ilustración de Manuela Carpio para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "89",
+    src: "/images/obras/MariaDelTango.webp",
+    alt: "Ilustración de María del Tango para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "90",
+    src: "/images/obras/MercedesRuiz.webp",
+    alt: "Ilustración de Mercedes Ruiz para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "91",
+    src: "/images/obras/PastoraGalvan.webp",
+    alt: "Ilustración de Pastora Galván para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "92",
+    src: "/images/obras/ManuelaCarpio.webp",
+    alt: "Ilustración de Manuela Carpio para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "93",
+    src: "/images/obras/PaulaSierra.webp",
+    alt: "Ilustración de Paula Sierra para el proyecto Flamencas Ilustradas",
+  },
+  {
+    id: "94",
+    src: "/images/home/susu1.webp",
+    alt: "Ilustración de Susana Subirana para la sección de inicio de la web",
+  },
+  {
+    id: "95",
+    src: "/images/home/susu2.webp",
+    alt: "Ilustración de Susana Subirana para la sección de inicio de la web",
+  },
+  {
+    id: "96",
+    src: "/images/home/susu3.webp",
+    alt: "Ilustración de Susana Subirana para la sección de inicio de la web",
+  },
+  {
+    id: "97",
+    src: "/images/home/susu4.webp",
+    alt: "Ilustración de Susana Subirana para la sección de inicio de la web",
+  },
+  {
+    id: "98",
+    src: "/images/home/susu5.webp",
+    alt: "Ilustración de Susana Subirana para la sección de inicio de la web",
+  },
+];
